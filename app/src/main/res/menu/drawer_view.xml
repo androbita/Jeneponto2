@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_satu"
+            android:icon="@drawable/beranda"
+            android:title="@string/home"
+            />
+        <item
+            android:id="@+id/nav_dua"
+            android:icon="@drawable/wisata"
+            android:title="@string/visit"/>
+        <item
+            android:id="@+id/nav_tiga"
+            android:icon="@drawable/investasi"
+            android:title="@string/invest"
+            />
+        <item
+            android:id="@+id/nav_empat"
+            android:icon="@drawable/prosedur"
+            android:title="@string/allow"/>
+        <item
+            android:id="@+id/nav_lima"
+            android:icon="@drawable/energi"
+            android:title="@string/something"/>
+        <item
+            android:id="@+id/nav_enam"
+            android:icon="@drawable/tracking"
+            android:title="@string/track"/>
+        <item
+            android:id="@+id/nav_tujuh"
+            android:icon="@drawable/kalkulator"
+            android:title="@string/retribution"/>
+        <item
+            android:id="@+id/nav_delapan"
+            android:icon="@drawable/keluhan"
+            android:title="@string/feedback"/>
+
+        <item android:title="Lainnya">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_sembilan"
+                        android:icon="@drawable/kontak"
+                        android:title="@string/contactUs" />
+                    <!--<item-->
+                        <!--android:id="@+id/nav_sepuluh"-->
+                        <!--android:icon="@drawable/bahasa"-->
+                        <!--android:title="@string/language" />-->
+
+                </group>
+
+            </menu>
+        </item>
+    </group>
+</menu>

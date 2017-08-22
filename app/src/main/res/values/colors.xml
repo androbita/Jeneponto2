@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="greenHard">#388178</color>
+    <color name="yellowHard">#FBD66C</color>
+    <color name="greenLight">#54C0B3</color>
+    <color name="yellowLight">#F5F094</color>
+    <color name="cardview_dark_background">#FF424242</color>
+    <color name="putih">#fff</color>
+    <color name="pesbuk">#3b5998</color>
+    <color name="gugel">#d34836</color>
+    <color name="teksbok">#D3D3D3</color>
+    <color name="darkblue">#052B63</color>
+    <color name="middleblue">#0D47A1</color>
+    <color name="greenew">#38AC36</color>
+    <color name="redda">#DA251D</color>
+    <color name="asal">#ff545454</color>
+</resources>

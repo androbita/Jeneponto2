@@ -1,0 +1,284 @@
+<resources>
+    <string name="app_name">Jeneponto</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="home">Beranda</string>
+    <string name="visit">Wisata Ke Jeneponto</string>
+    <string name="invest">Peluang Investasi</string>
+    <string name="allow">Prosedur Perizinan</string>
+    <string name="something">Energi</string>
+    <string name="track">Tracking Perizinan</string>
+    <string name="retribution">Kalkulator Retribusi</string>
+    <string name="feedback">Keluhan Warga</string>
+    <string name="contactUs">Hubungi Kami</string>
+    <string name="language">Pengaturan Bahasa</string>
+    <string name="headOffice"><b>Head Office</b>\nJl. Lingkar No. 30 Bontosunggu, Kabupaten Jeneponto, Sulawesi Selatan.</string>
+    <string name="OfficeHours"><b>Website</b>\nVisitjeneponto.id</string>
+    <!--<string name="OfficeHours"><b>Office Hours(GMT +7)</b>\nMonday - Thursday : dari jam berapa sampai jam berapa\nFriday : dari jam berapa sampai jam berapa\nSaturday, Sunday : Closed</string>-->
+    <string name="OfficeHours2"><b>Telp.</b>\n+62419-2410044</string>
+    <!--<string name="OfficeHours2"><b>Licensing and Non Licensing\nService Hours(GMT +7)</b>\nMonday - Thursday : dari jam berapa sampai jam berapa\nFriday : dari jam berapa sampai jam berapa\nSaturday, Sunday : Closed</string>-->
+    <string name="sure">Apa Anda Yakin Ingin Keluar?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="fitur">Maaf Fitur Ini Belun Tersedia !</string>
+    <string name="text_izin">Pilih Perizinan :</string>
+    <string name="text_tenaga_kerja">Jumlah Tenaga Kerja :</string>
+    <string name="ket_tenaga_kerja">Perhitungan Retribusi :\nUSD 100 x jumlah jabatan tenaga kerja</string>
+    <string name="ket_gedung_baru"><b>Perhitungan : L x It x 1.00 x HSbg</b>\n\nL = Luas lantai bangunan gedung\nV = Volume/besaran (dalam satuan m2, m, dan unit)\nI = Indeks\nIt = Indeks terintegrasi\nTk = Tingkat kerusakan (0.45 untuk tingkat kerusakan sedang, 0.65 untuk tingkat kerusakan berat)\n1.00 = Indeks pembangunan baru\nHSbg = Harga satuan retribusi bangunan gedung (hanya 1 tarif setiap kabupaten)</string>
+    <string name="ket_renovasi_gedung"><b>Perhitungan : L x It x Tk x HSbg</b>\n\nL = Luas lantai bangunan gedung\nV = Volume/besaran (dalam satuan m2, m, dan unit)\nI = Indeks\nIt = Indeks terintegrasi\nTk = Tingkat kerusakan (0.45 untuk tingkat kerusakan sedang, 0.65 untuk tingkat kerusakan berat)\n1.00 = Indeks pembangunan baru\nHSbg = Harga satuan retribusi bangunan gedung (hanya 1 tarif setiap kabupaten)</string>
+    <string name="ket_bukan_gedung_baru"><b>Perhitungan : V x I x 1.00 x HSbg</b>\n\nL = Luas lantai bangunan gedung\nV = Volume/besaran (dalam satuan m2, m, dan unit)\nI = Indeks\nIt = Indeks terintegrasi\nTk = Tingkat kerusakan (0.45 untuk tingkat kerusakan sedang, 0.65 untuk tingkat kerusakan berat)\n1.00 = Indeks pembangunan baru\nHSbg = Harga satuan retribusi bangunan gedung (hanya 1 tarif setiap kabupaten)</string>
+    <string name="ket_rehabilitasi_prasarana"><b>Perhitungan : V x I x Tk x HSbg\n\n</b>L = Luas lantai bangunan gedung\nV = Volume/besaran (dalam satuan m2, m, dan unit)\nI = Indeks\nIt = Indeks terintegrasi\nTk = Tingkat kerusakan (0.45 untuk tingkat kerusakan sedang, 0.65 untuk tingkat kerusakan berat)\n1.00 = Indeks pembangunan baru\nHSbg = Harga satuan retribusi bangunan gedung (hanya 1 tarif setiap kabupaten)</string>
+    <string name="ket_imb">L = Luas lantai bangunan gedung\nV = Volume/besaran (dalam satuan m2, m, dan unit)\nI = Indeks\nIt = Indeks terintegrasi\nTk = Tingkat kerusakan (0.45 untuk tingkat kerusakan sedang, 0.65 untuk tingkat kerusakan berat)\n1.00 = Indeks pembangunan baru\nHSbg = Harga satuan retribusi bangunan gedung (hanya 1 tarif setiap kabupaten)
+    </string>
+
+
+    <string-array name="izin_pertama">
+        <item>Pilih Jenis Izin</item>
+        <item>Perpanjangan Izin Memperkerjakan Tenaga Kerja Asing</item>
+        <item>Izin Mendirikan Bangunan</item>
+        <item>Izin Usaha Perikanan</item>
+    </string-array>
+
+    <string-array name="izin_imb">
+        <item>Pilih Jenis Retribusi</item>
+        <item>Retribusi pembangunan gedung baru</item>
+        <item>Retribusi rehabilitasi/renovasi bangunan gedung</item>
+        <item>Retribusi pembangunan bukan gedung baru atau prasarana bangunan gedung</item>
+        <item>Retribusi rehabilitasi prasarana bangunan gedung</item>
+    </string-array>
+
+    <string-array name="Tk">
+        <item>Pilih tingkat kerusakan</item>
+        <item>0.45</item>
+        <item>0.65</item>
+    </string-array>
+
+    <string-array name="HSbg">
+        <item>Pilih Jenis Bangunan</item>
+        <item>Bangunan gedung tidak bertingkat sederhana (Rp. 6000 permeter persegi)</item>
+        <item>Bangunan gedung tidak bertingkat (Rp. 12.000 permeter persegi)</item>
+        <item>Bangunan gedung bertingkat (Rp. 18.000 permeter persegi)</item>
+    </string-array>
+
+    <string-array name="jenis_perikanan">
+        <item>Pilih jenis perikanan</item>
+        <item>Ikan air tawar</item>
+        <item>Ikan air payau</item>
+        <item>Usaha perikanan penangkapan ikan</item>
+        <item>Usaha kapal pengangkutan ikan</item>
+    </string-array>
+
+    <string-array name="perikanan_tawar">
+        <item>Pilih metode perikanan air tawar</item>
+        <item>Pembenihan ikan dengan luas 0,75 ha atau lebih</item>
+        <item>Pembenihan ikan dengan luas 2 ha atau lebih</item>
+        <item>Pembenihan ikan lebih dari 5 unit</item>
+        <item>Usaha keramba jaring apung lebih dari 4 unit</item>
+        <item>Usaha keramba lebih dari 50 unit</item>
+    </string-array>
+
+    <string name="ket_tawar1">Usaha pembenihan/pendederan ikan dengan luas 0,75 ha atau lebih\n\n<b>Perhitungan : Rp 100.000 x luas lahan (dalam hectare)</b></string>
+
+    <string name="ket_tawar2">Usaha pembekalan di kolam air tenang dengan luas lahan 2 ha atau lebih\n\n<b>Perhitungan : Rp 100.000 x luas lahan (dalam hectare)</b></string>
+
+    <string name="ket_tawar3">Usaha pembekalan di kolam air deras lebih dari 5 unit, dengan ketentuan 1 unit = 100 m2\n\n<b>Perhitungan : Rp 150 x luas unit (dalam meter persegi)</b></string>
+
+    <string name="ket_tawar4">Usaha keramba jaring apung lebih dari 4 unit, dengan ketentuan 1 unit = (4x7x7x2,5 m3)\n\n<b>Perhitungan : Rp 15.000 x luas unit (dalam meter persegi)</b></string>
+
+    <string name="ket_tawar5">Usaha keramba lebih dari 50 unit, dengan ketentuan 1 unit = 4x2x1.5 m3\n\n<b>Perhitungan : Rp 150 x luas unit (dalam meter persegi)</b></string>
+
+    <string name="luas_lahan">Luas Lahan : </string>
+    <string name="luas_unit">Luas Unit : </string>
+    <string name="luas_lepas_dasar">Luas Lepas Dasar : </string>
+    <string name="luas_longline">Luas Long Line : </string>
+    <string name="luas_usaha_rakit_apung">Luas Usaha\nRakit Apung : </string>
+
+    <string-array name="perikanan_payau">
+        <item>Pilih metode perikanan air payau</item>
+        <item>Pembenihan ikan dengan luas 0,5 ha atau lebih</item>
+        <item>Pembesaran ikan dengan luas 5 ha atau lebih</item>
+        <item>Pembudidayaan rumput laut</item>
+        <item>Usaha kerang hijau</item>
+    </string-array>
+
+    <string-array name="rumput_laut">
+        <item>pilih metode budidaya rumput laut</item>
+        <item>Lepas dasar</item>
+        <item>Rakit apung</item>
+        <item>Long line</item>
+    </string-array>
+
+    <string-array name="kerang_hijau">
+        <item>pilih metode usaha kerang hijau</item>
+        <item>Rakit apung atau rakit tancap</item>
+        <item>Long line</item>
+    </string-array>
+
+    <string name="ket_payau1">Usaha pembenihan/pendederan dengan luas lahan 0,5 ha atau lebih\n\n<b>Perhitungan : Rp 100.000 x luas lahan (dalam hectare)</b></string>
+
+    <string name="ket_payau2">Usaha pembesaran ikan dengan luas lahan5 ha atau lebih\n\n<b>Perhitungan : Rp 100.000/ha x luas lahan (dalam hectare)</b></string>
+
+    <string name="ket_rumput_lepas">Lepas dasar lebih dari 8 unit dengan ketentuan 1 unit = (100x5) m2\n\n<b>Perhitungan : Rp 5 x luas lepas dasar (dalam m2)</b></string>
+
+    <string name="ket_rumput_rakit">Usaha rakit apung lebih dari 20 unit dengan ketentuan 1 unit = 20 rakit, 1 rakit = (5x2) m2\n\n<b>Perhitungan : Rp 5 x luas usaha rakit apung (dalam m2)</b></string>
+
+    <string name="ket_rumput_longline">Long line lebih dari 2 unit dengan ketentuan 1 unit = 1 ha\n\n<b>Perhitungan : Rp 50.000 x luas long line (dalam hektar)</b></string>
+
+    <string name="ket_kerang_rakit">Usaha rakit apung atau rakit tancap lebih dari 30 unit dengan ketentuan 1 unit = (4x4) m2\n\n<b>Perhitungan : Rp 5 x luas usaha rakit apung (dalam m2)</b></string>
+
+    <string name="ket_kerang_longline">Long line 10 unit ukuran 100 m\n\n<b>Perhitungan : Rp 10 x ukuran longline (dalam m)</b></string>
+
+    <string-array name="penangkapan_ikan">
+        <item>Pilih metode penangkapan ikan</item>
+        <item>penangkapan ikan dengan kapal bobot dibawah 5 GT</item>
+        <item>Rawe (long line) dan gill net</item>
+        <item>mini purse seine</item>
+        <item>alat lainnya dengan bobot kapal dibawah 5 GT</item>
+    </string-array>
+
+    <string name="jumlah_kapal">Jumlah Kapal : </string>
+    <string name="jumlah_kapal_tahun">Jumlah Kapal per Tahun : </string>
+
+    <string name="ket_ikan_kapal">Usaha perikanan penangkapan ikan dengan kapal bobot dibawah 5 GT\n\n<b>Perhitungan : Rp 40.000 x jumlah kapal</b></string>
+
+    <string name="ket_ikan_longline">Usaha penangkapan ikan dengan menggunakan rawe (longline) dan gill net dengan bobot kapal dibawah 5 GT\n\n<b>Perhitungan : Rp 30.000 x jumlah kapal per tahun</b></string>
+
+    <string name="ket_ikan_purse">Usaha penangkapan ikan dengan menggunakan mini purse seine, ampera dibawah 5 GT\n\n<b>Perhitungan : Rp 35.000 x jumlah kapal per tahun</b></string>
+
+    <string name="ket_ikan_other">Usaha perikanan penangkapan ikan dengan metode lainnya\n\n<b>Perhitungan : Rp 25.000 x jumlah kapal per tahun</b></string>
+
+    <string name="ket_pengangkutan_ikan">Usaha perikanan pengangkutan ikan dengan kapal berbobot dibawah 5 GT\n\n<b>Perhitungan : Rp 40.000 x jumlah kapal</b></string>
+    <string name="isiin">Maaf Fitur Perizinan saat ini belum tersedia</string>
+    <string name="energiReloadTitle">Energi Terbarukan</string>
+    <string name="energiReload01">
+        Energi terbarukan energi yang berasal dari "proses alam yang berkelanjutan", seperti tenaga surya, tenaga angin, arus air proses biologi, dan panas bumi.</string>
+    <string name="energiReload02">
+        Konsep energi terbarukan mulai dikenal pada tahun 1970-an, sebagai upaya untuk mengimbangi pengembangan energi berbahan bakar nuklir dan fosil. Definisi paling umum adalah sumber energi yang dapat dengan cepat dipulihkan kembali secara alami, dan prosesnya berkelanjutan. Dengan definisi ini, maka bahan bakar nuklir dan fosil tidak termasuk di dalamnya.
+    </string>
+    <string name="energiReload03">
+    Dari definisinya, semua energi terbarukan sudah pasti juga merupakan energi berkelanjutan, karena senantiasa tersedia di alam dalam waktu yang relatif sangat panjang sehingga tidak perlu khawatir atau antisipasi akan kehabisan sumbernya. Para pengusung energi non-nuklir tidak memasukkan tenaga nuklir sebagai bagian energi berkelanjutan karena persediaan uranium-235 di alam ada batasnya, katakanlah ratusan tahun. Tetapi, para penggiat nuklir berargumentasi bahwa nuklir termasuk energi berkelanjutan jika digunakan sebagai bahan bakar di reaktor pembiak cepat (FBR: Fast Breeder Reactor) karena cadangan bahan bakar nuklir bisa "beranak" ratusan hingga ribuan kali lipat.
+    Alasannya begini, cadangan nuklir yang dibicarakan para pakar energi dalam ordo puluhan atau ratusan tahun itu secara implisit dihitung dengan asumsi reaktor yang digunakan adalah reaktor biasa (umumnya tipe BWR atau PWR), yang notabene hanya bisa membakar U-235. Di satu sisi kandungan U-235 di alam tak lebih dari 0,72% saja, sisanya kurang lebih 99,28% merupakan U-238. Uranium jenis U-238 ini dalam kondisi pembakaran "biasa" (digunakan sebagai bahan bakar di reaktor biasa) tidak dapat menghasilkan energi nuklir, tetapi jika dicampur dengan U-235 dan dimasukan bersama-sama ke dalam reaktor pembiak, bersamaan dengan konsumsi/pembakaran U-235, U-238 mengalami reaksi penangkapan 1 neutron dan berubah wujud menjadi U-239. Dalam hitungan menit U-239 meluruh sambil mengeluarkan partikel beta dan kembali berubah wujud menjadi Np-239. Np-239 juga kembali meluruh sambil memancarkan partikel beta menjadi Pu-239. Pu-239 inilah, yang meski tidak tersedia di alam tetapi terbentuk sebagai hasil sampingan pembakaran U-235, memiliki kemampuan membelah diri dan menghasilkan energi sebagaimana U-235. Bisa dibayangkan jika semua U-238 yang jumlahnya ribuan kali lebih banyak daripada U-235, berhasil diubah menjadi Pu-239, berapa peningkatan terjadi jumlah bahan bakar nuklir. Hal yang serupa juga terjadi untuk atom [thorium-233] yang dengan reaksi penangkapan 1 neutron berubah wujud menjadi U-233 yang memiliki kemampuan reaksi berantai (reaksi nuklir).
+    Itulah sebabnya mengapa negara-negara maju tertentu enggan meninggalkan nuklir meski risiko radioaktif yang diterimanya tidak ringan. Reaktor pembiak cepat seperti yang dimiliki oleh Korea Utara mendapat pengawasan ketat dari IAEA karena mampu memproduksi bahan bakar baru Pu-239 yang rentan disalahgunakan untuk senjata pemusnah massal.
+    Di sisi lain para penentang nuklir cenderung menggunakan istilah "energi berkelanjutan" sebagai sinonim dari "energi terbarukan" untuk mengeluarkan energi nuklir dari pembahasan kelompok energi tersebut
+    </string>
+
+    <string name="potensiTitle">
+    Pengembangan dan Pembangunan Strategis di Kawasan Pesisir dan Perairan Teluk Mallasoro.
+    </string>
+    <string name="potensiTitle2">
+    Potensi Investasi Sektor Energi
+    </string>
+    <string name="potensiTitle3">
+    Potensi Investasi Kelautan dan Perikanan
+    </string>
+    <string name="potensiTitle4">
+     Potensi Andalan Pertanian dan Perkebunan
+    </string>
+    <string name="potensiKonten1">
+Selain kawasan industri yang berada di Tanjung Mallasoro, kawasan perairan Teluk Mallasoro juga menjadi kawasan strategis yang akan dikembangkan untuk mendorong pertumbuhan ekonomi wilayah. Lokasi yang strategis (merupakan titik lelah rute Makassar - Bulukumba). Pemandangan yang menarik, berada pada wilayah teluk dan berada pada jalur jalan nasional membuat kawasan ini sangat menjanjikan untuk dikembangkan sebagai kawasan strategis baru.
+Dalam studi yang dilakukan oleh Universitas Hasanuddin, ada beberapa usulan pengembangan, antara lain:
+\n1.	Daerah penangkapan ikan potensial
+\n2.	Lokasi pengembangan industri galangan kapal
+\n3.	Pengembangan pelabuhan perikanan
+\n4.	Pembangunan kawasan REST AREA Teluk Mallasoro
+\n5.	Lokasi Pengembangan budidaya rumput laut
+\n6.	Lokasi Pengembangan budidaya tambak intensif
+\n7.	Lokasi pengembangan budidaya bandeng laut.
+\n8.	Lokasi pengembangan budidaya keramba jaring apung
+\n9.	Lokasi Pengembangan budidaya penangkaran ikan hidup
+\n10.	Kawasan Konservasi Produktif (Hutan Bawah Laut)
+\n11.	Kawasan reboisasi dan rehabilitasi ekosistem mangrove
+\n12.	Revitaliasasi fungsi sempadan pantai dan DAS
+\n13.	Optimalisasi pariwisata bahari-permandian Birtaria Kassi.
+    </string>
+    <string name="potensiKonten2">
+Potensi angin di Kabupaten Jeneponton pada lokasi dan waktu tertentu menunjukkan bahwa kecepatan angin berada pada kisaran 5,5 m/s, terutama pada daerah pesisir. Hal ini sangat baik dimanfaatkan/dikonversi menjadi energi listrik. Saat ini sementara dalam tahap pembangunan 20 turbin angin (pembangkit listrik tenaga bayu – PLTB) dengan kapasitas 72 MW.
+Potensi tenaga surya Kabupaten Jeneponto memiliki potensi radiasi sinar matahari yang potensial yaitu 4,5 – 4,8 Kwh/m²/hari, hal ini sangat baik untuk dimanfaatkan dan dikonversi menjadi energi listrik. Yang dalam waktu dekat akan dibangun adalah pembangkit listrik tenaga surya sebesar 20 MW.
+Potensi pengembangan energi listrik tenaga uap, saat ini terdapat beberapa investasi swasta (PT. Bosowa Energi) dan Pemerintah (PLN) telah membangun PLTU. Hal ini memungkinkan karena Jeneponto memiliki pantai yang relatif dalam 0-2000 m, yang potensial untuk pengembangan pelabuhan, yang ditunjang letak Jeneponto relatif dekat dengan Kalimantan sebagai dearah penghasil batubara sebagai bahan bakar uap
+Secara keseluruhan, untuk ketersediaan listrik untuk Jeneponto surplus per 31 Juli 2017 sebesar 200 MW.
+Berdasarkan hasil studi seismik yang dilakukan oleh perusahaan eksplorasi minyak bumi, ditemukan cekungan sedimen Minyak Bumi yang berada di kawasan Kabupaten Jeneponto, Takalar dan Bantaeng yang disebut BLOK MIGAS KARAENGTA.
+    </string>
+    <string name="potensiKonten3">
+Garam Rakyat di Kabupaten Jeneponto merupakan Komoditi andalan dan boleh dikatakan terbesar di kawasan Timur Indonesia. Saat ini luas tambak garam di Jeneponto mencapai 1.200 Ha. Sentra pengembangan garam rakyat berada masing masing di Kecamatan Arungkeke, Tamalatea serta Kecamatan Bangkala. Adapun produksi garam setiap tahun mencapai 180.000 ton per tahun dengan kadar NaCl 9 persen. Garam yang dihasilkan berpotensi untuk dijadikan garam untuk farmasi, kosmetik dan industri.
+Selain garam sebagai potensi andalan kelautan perikanan yaitu rumput laut dengan produksi rata-rata 136.172 Ton, udang windu sebanyak 568.43 Ton, serta Bandeng dengan produksi 2.396 Ton.
+    </string>
+    <string name="potensiKonten4">
+Kabupaten Jeneponto menjadi salah satu sentra jagung terbesar sektor barat di provinsi Sulawesi Selatan dengan luas Tanam 53.446 Ha, Luas Panen 53.439 Ha, Produksi 277.646 Ton.
+Kelapa Dalam menjadi komoditas perkebunan utama di Kabupaten Jeneponto, dan memiliki prospek bisnis yang sangat bagus. Nilai ekonomi komoditi kelapa sangat besar. Ini karena mulai dari batang hingga daun kelapa dapat dikelola dan dijadikan sebagai bahan baku industri rumahan. Jika ini dimanfaatkan maksimal, bisa memberikan kesejahteraan bagi para petani di Kabupaten Jeneponto. Nilai Produksi Kelapa Dalam di kabupaten ini adalah 3.403,5 ton dengan luas areal tanam seluas 5512,50 Ha.
+Selain kelapa, masih ada komoditas perkebunan yang potensial di kabupaten Jeneponto, yaitu kopi arabika dengan luas 2.437,5 dengan produksi 1.965.017 Ton, jambu mete dengan Luas  2.547,75 dengan produksi 1.076.784 Ton , kapuk Luas 1.598 dengan produksi 525,148 Ton dan Kelapa Hibrida dengan Luas 228.50 Ha dengan produksi 143,609.
+    </string>
+    <string name="wisataJudul1">
+        1.	Obyek Wisata Lembah Hijau Rumbia (LHR)</string>
+    <string name="wisataJudul2">
+    2.	Obyek Wisata Air Terjun Tama’lulua/Bukit Bossolo    </string>
+    <string name="wisataJudul3">
+    3.	Obyek Wisata Birtaria Kassi    </string>
+    <string name="wisataJudul4">
+    4.	Obyek Wisata Water Park Boyong    </string>
+    <string name="wisataJudul5">
+5.	Obyek Wisata Pantai Karsut    </string>
+    <string name="wisataJudul6">
+6.	Obyek Wisata Pantai Ujung Timur    </string>
+    <string name="wisataJudul7">
+7.	Obyek Wisata Bungung Salapang    </string>
+    <string name="wisataJudul8">
+8.	Obyek Wisata Pulau Libukang    </string>
+    <string name="wisataJudul9">
+9.	Obyek Wisata Bendungan Beroanging    </string>
+    <string name="wisataJudul10">
+10.	Obyek Wisata Batu Siping    </string>
+    <string name="wisataJudul11">
+11.	Obyek Wisata Air Terjun Tuangloe    </string>
+
+    <string name="wisataKonten1">
+        Terletak Sebelah Utara Ibu Kota Kabupaten Jeneponto tepatnya di Desa Tompo Bulu Kecamatan Rumbia Kabupaten Jeneponto, Jarak Tempuh ± 30 KM atau ± 45 Menit dengan Kendaraan Umum dari Kota Bontosunggu (Ibu Kota Kabupaten Jeneponto). Obyek Wisata ini menawarkan keindahan akan panorama alam yang sejuk, selain itu pengunjung dimanjakan dengan tersedianya Kolam Renang, Villa, Ruang Pertemuan, aneka permainan aout bond serta Flying Fox. Adapun insfrastruktur lainnya adalah Tersedianya Musallah, Restoran Tradisional, Gazebo dan Ruang Ganti/Toilet.
+    </string>
+    <string name="wisataKonten2">
+        Terletak Sebelah Utara Ibu Kota Kabupaten Jeneponto tepatnya di Desa Rumbia Kecamatan Rumbia Kabupaten Jeneponto, Jarak Tempuh ± 25 KM atau ± 35 Menit dengan Kendaraan Umum dari Kota Bontosunggu (Ibu Kota Kabupaten Jeneponto). Obyek Wisata ini menawarkan keindahan akan panorama alam yang sejuk, selain itu pengunjung dimanjakan dengan tersedianya Air Terjun ketinggian ± 100 M , Kolam Renang, Smooking/Rest Area, Jajanan Tradisional, lahan parkir, Pedistrian jalan, Gazebo dan Ruang Ganti/Toilet.
+    </string>
+    <string name="wisataKonten3">
+        Terletak Sebelah Barat Ibu Kota Kabupaten Jeneponto tepatnya di Kelurahan Tonrokassi Barat Kecamatan Tamalatea Kabupaten Jeneponto, Jarak Tempuh ± 25 KM atau ± 35 Menit dengan Kendaraan Umum dari Kota Bontosunggu (Ibu Kota Kabupaten Jeneponto). Obyek Wisata ini menawarkan keindahan akan panorama alam yang indah, selain itu pengunjung dimanjakan dengan tersedianya Hamparan Pantai Pasir Putih, Sumur Jodoh, Kolam Renang, Villa, Panggung Hiburan, Dermaga, Jajanan Tradisional, lahan parkir, Pedistrian jalan, Musallah, AULA, Gazebo dan Ruang Ganti/Toilet.
+    </string>
+    <string name="wisataKonten4">
+        Terletak Sebelah Barat Ibu Kota Kabupaten Jeneponto tepatnya di Kelurahan Tamanroya Kecamatan Tamalatea Kabupaten Jeneponto, Jarak Tempuh ± 20 KM atau ± 30 Menit dengan Kendaraan Umum dari Kota Bontosunggu (Ibu Kota Kabupaten Jeneponto). Obyek Wisata ini menawarkan pengunjung dengan Menyediakan Kolam Renang, Penginapan, Jajanan Tradional, lahan parkir, Musallah, dan Ruang Ganti/Toilet.
+    </string>
+    <string name="wisataKonten5">
+        Terletak Sebelah Selatan Ibu Kota Kabupaten Jeneponto tepatnya di Desa Kampala Kecamatan Arungkeke Kabupaten Jeneponto, Jarak Tempuh ± 15 KM atau ± 20 Menit dengan Kendaraan Umum dari Kota Bontosunggu (Ibu Kota Kabupaten Jeneponto). Obyek Wisata ini menawarkan keindahan akan panorama alam yang indah, selain itu pengunjung dimanjakan dengan tersedianya Hamparan Pantai Pasir Putih, Kolam Renang, Villa, Jajanan Tradisional, lahan parkir, Musallah, Gazebo dan Ruang Ganti/Toilet.
+    </string>
+    <string name="wisataKonten6">
+        Terletak Sebelah Timur Ibu Kota Kabupaten Jeneponto tepatnya di Desa Bonto Ujung Kecamatan Tarowang Kabupaten Jeneponto, Jarak Tempuh ± 25 KM atau ± 35 Menit dengan Kendaraan Umum dari Kota Bontosunggu (Ibu Kota Kabupaten Jeneponto). Obyek Wisata ini menawarkan keindahan akan panorama alam yang indah akan rumbunnya pohon kelapa, selain itu pengunjung dimanjakan dengan tersedianya Hamparan Pantai Pasir Putih, Jajanan Kelapa Muda, lahan parkir,  Gazebo dan Ruang Ganti/Toilet.
+    </string>
+    <string name="wisataKonten7">
+        Terletak Sebelah Timur Ibu Kota Kabupaten Jeneponto tepatnya di Desa Bonto Rappo Kecamatan Tarowang Kabupaten Jeneponto, Jarak Tempuh ± 20 KM atau ± 30 Menit dengan Kendaraan Umum dari Kota Bontosunggu (Ibu Kota Kabupaten Jeneponto). Obyek Wisata ini menawarkan keindahan akan panorama alam yang indah bagi pengunjung, selain itu  Bungung salapang atau sembilan Sumur sangat disakralkan oleh masyarakat setempat bahwa dengan mandi pada sumur tersebut maka anak muda akan segera mendaptkan jodoh.
+    </string>
+    <string name="wisataKonten8">
+        Terletak Sebelah Barat Ibu Kota Kabupaten Jeneponto tepatnya di Kelurahan Bonto Rannu Kecamatan Bangkala Kabupaten Jeneponto, Jarak Tempuh ± 30 KM atau ± 45 Menit dengan Kendaraan Umum dan Perahu dari Kota Bontosunggu (Ibu Kota Kabupaten Jeneponto). Obyek Wisata ini menawarkan keindahan akan panorama alam yang indah, selain itu pengunjung dimanjakan dengan tersedianya Hamparan Pantai Pasir Putih, Jajanan Kelapa Muda dan Jajan kuliner Ikan Laut, Gazebo dan Ruang Ganti/Toilet.
+    </string>
+    <string name="wisataKonten9">
+        Terletak Sebelah Barat Ibu Kota Kabupaten Jeneponto tepatnya di Desa Beroanging Kecamatan Bangkala Barat Kabupaten Jeneponto, Jarak Tempuh ± 50 KM atau ± 60 Menit dengan Kendaraan Umum dari Kota Bontosunggu (Ibu Kota Kabupaten Jeneponto). Obyek Wisata ini menawarkan keindahan akan panorama alam yang indah, selain itu pengunjung dimanjakan dengan tersedianya Kolam , Jajanan Tradisional, Gazebo dan Ruang Ganti/Toilet.
+    </string>
+    <string name="wisataKonten10">
+        Terletak Sebelah Barat Ibu Kota Kabupaten Jeneponto tepatnya di Desa Garassikang Kecamatan Bangkala Kabupaten Jeneponto, Jarak Tempuh ± 35 KM atau ± 45 Menit dengan Kendaraan Umum dari Kota Bontosunggu (Ibu Kota Kabupaten Jeneponto). Obyek Wisata ini menawarkan keindahan akan panorama alam yang indah dengan susunan Batu Besar yang dibentuk oleh alam. selain itu pengunjung dimanjakan dengan tersedianya Jajanan Tradisional, dan andreline yang cukup menantang.
+    </string>
+    <string name="wisataKonten11">
+        Terletak Sebelah Utara Ibu Kota Kabupaten Jeneponto tepatnya di Desa Datara Kecamatan Bonto Ramba Kabupaten Jeneponto, Jarak Tempuh ± 40 KM atau ± 45 Menit dengan Kendaraan Umum dari Kota Bontosunggu (Ibu Kota Kabupaten Jeneponto). Obyek Wisata ini menawarkan keindahan akan panorama alam yang indah. selain itu pengunjung dimanjakan dengan tersedianya Air terjun, Jajanan Tradisional, dan andreline yang cukup menantang.
+    </string>
+
+    <string name="izin_nasional">Izin Tingkat Nasional</string>
+    <string name="izin_daerah">Izin Tingkat Daerah</string>
+
+    <string name="izin_3_jam">Perizinan 3 jam</string>
+    <string name="izin_esdm">Perizinan ESDM</string>
+
+    <string name="persyaratan">Persyaratan :</string>
+    <string name="lama">Lama Proses :</string>
+    <string name="biaya">Biaya :</string>
+    <string name="jangka_waktu">Jangka Waktu :</string>
+    <string name="ket_luas">L = Luas lantai bangunan gedung</string>
+    <string name="ket_volume">V = Volume/besaran (m2, m, unit)</string>
+    <string name="ket_it">It = Indeks Terintegrasi</string>
+    <string name="indeks">Indeks</string>
+    <string name="ket_indeks">Indeks Pembangunan Baru = 1.00</string>
+
+</resources>
+

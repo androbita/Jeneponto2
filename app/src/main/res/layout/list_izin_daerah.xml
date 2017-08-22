@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:id="@+id/list_daerah"
+    android:clickable="true">
+    <Button
+        android:id="@+id/nama_izin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:id="@+id/textPersyaratan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/persyaratan"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/persyaratan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text_lama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lama"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/lama_proses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textBiaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/biaya"
+        android:textSize="20dp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/biaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/text_jangka_waktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jangka_waktu"
+        android:textSize="20dp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/jangka_waktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        />
+</LinearLayout>
