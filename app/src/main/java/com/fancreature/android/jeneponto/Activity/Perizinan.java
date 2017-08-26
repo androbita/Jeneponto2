@@ -15,9 +15,11 @@ package com.fancreature.android.jeneponto.Activity;
         import android.view.View;
         import android.view.ViewGroup;
         import android.widget.Button;
+        import android.widget.ImageView;
         import android.widget.ListAdapter;
         import android.widget.ListView;
         import android.widget.SimpleAdapter;
+        import android.widget.TextView;
 
         import com.fancreature.android.jeneponto.FragmentPerizinan.IzinDaerah;
         import com.fancreature.android.jeneponto.FragmentPerizinan.IzinNasional;
@@ -43,10 +45,10 @@ package com.fancreature.android.jeneponto.Activity;
 public class Perizinan extends Fragment {
 
     @Bind(R.id.btn_daerah)
-    Button btnDaerah;
+    TextView btnDaerah;
 
     @Bind(R.id.btn_nasional)
-    Button btnNasional;
+    TextView btnNasional;
 
     public Perizinan(){
 
@@ -71,6 +73,8 @@ public class Perizinan extends Fragment {
         btnNasional.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                btnDaerah.setBackgroundResource(R.color.middleblue);
+                btnNasional.setBackgroundResource(R.color.darkblue);
                 IzinNasional izinNasional = new IzinNasional();
                 getFragmentManager().beginTransaction()
                         .replace(R.id.fIzin, izinNasional)
@@ -83,6 +87,8 @@ public class Perizinan extends Fragment {
         btnDaerah.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
+                btnNasional.setBackgroundResource(R.color.middleblue);
+                btnDaerah.setBackgroundResource(R.color.darkblue);
                 IzinDaerah izinDaerah = new IzinDaerah();
                 getFragmentManager().beginTransaction()
                         .replace(R.id.fIzin, izinDaerah)
